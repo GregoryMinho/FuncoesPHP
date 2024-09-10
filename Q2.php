@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questao 2</title>
 </head>
+
 <body>
     <h1>Conversão Dólar para Real</h1>
     <form action="" method="post">
@@ -14,15 +16,16 @@
     </form>
 
     <?php
-        $dolar =  $_POST['dolar'];
-        function conversao($dolar): float
-        {
-            $real = $dolar * 5.66;
-            return $real;
-        }
-        echo "<br>";
-        echo "O valor em real é: ". (round(num: conversao(dolar: $dolar), precision: PHP_ROUND_HALF_UP)). " R$";
+    $dolar = $_POST['dolar'];
+    function conversao($dolar): float
+    {
+        $real = $dolar * 5.66;
+        return $real;
+    }
+    echo "<br>";
+    echo "O valor em real é: " . (round(num: conversao(dolar: $dolar), precision: PHP_ROUND_HALF_UP)) . " R$";
 
     ?>
 </body>
+
 </html>

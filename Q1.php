@@ -10,15 +10,15 @@
 <body>
     <main>
         <h1>Conversão de Temperaturas</h1>
-        
+
         <form action="" method="post">
-        
+
             <label for="FFtemperatura">Insira a temperatura:</label>
             <input type="number" id="FFtemperatura" name="FFtemperatura" value="<?= $celsius ?>" required>
             <button type="submit">Enviar</button>
         </form>
 
-        <?php       
+        <?php
         $temperatura = $_POST['FFtemperatura'];
         function resultado($temperatura)
         {
