@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Calcular de Peso</h1>
+    <h1>Calcular Peso</h1>
     <form action="" method="post">
         <label for="sexo">Sexo:</label>
         <input type="text" name="sexo" id="sexo" placeholder="informe seu sexo">
